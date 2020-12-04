@@ -1,7 +1,7 @@
 # Sentiment-Analysis-of-Amazon-Reviews
-In this project a Neural Network model based on Recurrent Neural Networks aims to predict whether review on Amazon conveys a positive or a negative sentiment. For each review the model predicts a value between 0 and 1 for conveying a particular sentiment where 1 means absolute positive and 0 implies absolute negtaive.
+In this project a Neural Network model based on Recurrent Neural Networks aims to predict whether review on Amazon conveys a positive or a negative sentiment. For each review the model predicts a value between 0 and 1 for conveying a particular sentiment where 1 means absolute positive and 0 implies absolute negative.
 
-In case of Recurrent Neural Network I am using Gated Recurrent Units(GRU's) networks.To get a good result on the sentiment of review, pretrained BERT model is used for obtining the embessing for words . Also overfitting is prevented by using dropout.
+In case of Recurrent Neural Network I am using Gated Recurrent Units(GRU's) networks.To get a good result on the sentiment of review, pretrained BERT model is used for obtaining the embedding for words . Also overfitting is prevented by using dropout.
 ## Getting Started
 Pytorch 
 
